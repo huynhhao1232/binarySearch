@@ -1,0 +1,149 @@
+*{
+  font-size: 11px;
+}
+
+pre{
+  font-size: 12px;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+
+
+.highlighted-line {
+    background-color: yellow; /* Màu nền khi được highlight */
+    color: black; /* Màu chữ khi được highlight */
+    font-weight: bold; /* Độ đậm của chữ khi được highlight */
+}
+
+.body{
+  margin-top: 50px
+}
+#actions-hide{
+  bottom: 60px;
+  left: 0;
+  padding-left: 14px;
+  padding-right: 14px;
+  z-index: 2;
+}
+
+.panel-hide{
+  position: fixed;
+  cursor: pointer;
+  background: #777;
+}
+
+.rotateRight{
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transition: .5s;
+  -webkit-transition: .5s;
+}
+
+.rotateLeft{
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transition: .5s;
+  -webkit-transition: .5s;
+}
+
+#actions{
+  color: #fff;
+  left: 25px;
+  bottom: 60px;
+
+}
+
+
+
+
+.panel{
+  position: fixed;
+  color: #fff;
+  overflow: hidden;
+  background: #777;
+  white-space: nowrap;
+  transition: all .5s;
+}
+
+#actions p:first-of-type{
+  margin-top: 8px;
+}
+
+#actions p{
+  padding: 0px 10px;
+  cursor: pointer;
+  width: 150px;
+  height: 20px;
+}
+
+#actions p:last-of-type{
+  padding-bottom: 0
+}
+
+#actions p:hover{
+  background: #000;
+}
+
+
+
+.execAction{
+  padding: 0px 8px 0 8px;
+  cursor: pointer;
+}
+
+.execAction:hover{
+  background: #000;
+}
+
+
+
+.create{
+  bottom: 92px
+}
+
+.action-menu-pullot{
+  position: fixed;
+  height: 20px;
+}
+
+.new-menu-option{
+  margin-left: 10px;
+}
+
+.new-menu-option p{
+  font-size: 12px
+}
+
+#create-userdefined-input input{
+  width: 150px;
+  height: 20px;
+}
+
+#actions-extras input{
+  padding: 5px 8px 7px;
+}
+
+.action-menu-pullot input{
+  background: #000;
+  color: #fff;
+}
+
+.disabled{
+  pointer-events: none
+}
+
+
+
+
+
+
+
+
+
+
+
