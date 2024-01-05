@@ -1,26 +1,31 @@
 
 import Scene3 from "./Scene3.js";
-var gameSetting = {
-    playerSpeed: 200,
-    
-}
+import Preload from "./Preload.js";
+
 
 
 
 
 var config = {
-    width: window.innerWidth/2,
-    height: window.innerHeight / 2,
-    backgroundColor: 0xffffff,
-    scene: [Scene3],
+    width: 1200,
+    height: 700,
+    backgroundColor: 0xdbefe1,
+    scene: [Preload,Scene3],
     pixelArt: true,
     type: Phaser.AUTO,
+    dom:{
+        createContainer: true
+    },
     parent: 'phaser-game',
     physics:{
         default: 'arcade',
         arcade: {
             debug: false
         }
+    },
+    scale: {
+
+        
     }
     
 }
